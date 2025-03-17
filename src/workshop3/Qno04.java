@@ -10,7 +10,7 @@ public class Qno04 {
     }
 
     public void newAttributes() {
-        account = new bankaccountQn03(123, 1000.0f, "Ravi Kumar", "USA");
+        account = new bankaccountQn03(657, 456760.0f, "Randy orton ", "USA");
     }
 
     public void printDetails() {

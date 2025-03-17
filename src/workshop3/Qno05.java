@@ -6,7 +6,7 @@ public class Qno05 {
     public static void main(String[] args) {
         Qno05 mainInstance = new Qno05();
         mainInstance.newAttributes();
-        mainInstance.Moneydeposit();
+        mainInstance.depositMoney();
         mainInstance.withdrawMoney();
     }
 
@@ -16,7 +16,7 @@ public class Qno05 {
         this.account = task04Instance.account;
     }
 
-    public void Moneydeposit() {
+    public void depositMoney() {
         account.depositMoney(500.0f);
     }
 
