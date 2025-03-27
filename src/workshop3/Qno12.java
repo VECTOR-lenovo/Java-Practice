@@ -28,7 +28,7 @@ class Customer {
 
 public class Qno12 {
     public static void main(String[] args) {
-        bankaccountQn03 account = new bankaccountQn03(123, 5000.0f, "Ravi Kumar", "USA");
+        bankaccountQn03 account = new bankaccountQn03(6785, 4500.0f, "Ariaan dhokol", "Thamel");
         Customer customer = new Customer(1, account);
         System.out.println("Customer ID: " + customer.getCustomerId());
         System.out.println("Customer Bank Account Balance: " + customer.getBankAccountNum().balance);
